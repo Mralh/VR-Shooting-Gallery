@@ -1,0 +1,60 @@
+# Blender MTL File: 'None'
+
+# Material Count: 3
+
+
+
+newmtl material-0059EFBF
+
+Ns 96.078431
+
+Ka 0.000000 0.000000 0.000000
+
+Kd 0.640000 0.640000 0.640000
+
+Ks 0.500000 0.500000 0.500000
+
+Ni 1.000000
+d 1.000000
+
+illum 0
+
+map_Kd textures//i_stex12a_0.png
+
+
+
+newmtl material-0074DB74
+
+Ns -3.921569
+
+Ka 0.000000 0.000000 0.000000
+
+Kd 0.640000 0.640000 0.640000
+
+Ks 0.500000 0.500000 0.500000
+
+Ni -1.000000
+d 1.000000
+
+illum 0
+
+map_Kd textures//i_stex12a_0.png
+
+
+
+newmtl material-03296DB7
+
+Ns 96.078431
+
+Ka 0.000000 0.000000 0.000000
+
+Kd 0.640000 0.640000 0.640000
+
+Ks 0.500000 0.500000 0.500000
+
+Ni 1.000000
+d 1.000000
+
+illum 0
+
+map_Kd textures//i_stex12a_0.png
