@@ -21,7 +21,7 @@ public class RopeSpawner : Spawner {
     {
         if (timer == 60)
         {
-            GameObject rupee = GameObject.Instantiate(Resources.Load<GameObject>("Prefabs/rupees/" + type));
+            GameObject rupee = GameObject.Instantiate(Resources.Load<GameObject>("Prefabs/rupees/green"));
             rupee.transform.position = transform.position;
             rupee.GetComponent<Rigidbody>().velocity = velocity;
             rupee.GetComponent<Shootable>().destroyTimer = 200;

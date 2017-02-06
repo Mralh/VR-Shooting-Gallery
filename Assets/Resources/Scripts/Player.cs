@@ -21,7 +21,7 @@ public class Player : MonoBehaviour {
     public bool gameStarted = false;
 
 
-    int spawnerTimer = 400;
+    int spawnerTimer = 250;
     int t = 0;
 
 	// Use this for initialization
@@ -35,6 +35,8 @@ public class Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         if (Input.GetButtonDown("Fire1"))
         {
             firePushed = true;
@@ -95,8 +97,8 @@ public class Player : MonoBehaviour {
         GameObject spawner = spawnerParent.GetChild(next).gameObject;
         Debug.Log(spawner.name);
         spawner.GetComponent<Spawner>().spawn();
-        if (spawnerTimer > 120)
-            spawnerTimer -= 10;
+        if (spawnerTimer > 150)
+            spawnerTimer -= 5;
     }
 
 }
